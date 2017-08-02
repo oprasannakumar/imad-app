@@ -6,12 +6,12 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-    'article-one':{
+    'articleone':{
     title :'Articleone | Prasanna Kumar',
     heading:'Articleone',
     date:'Aug 2, 2017',
     link:` <a href="/">home</a>
-                    <a href="/article-two">articletwo</a>`,
+                    <a href="/articletwo">articletwo</a>`,
     content: `
             <p>
                 Hai guys this is my first web site designed by my own by learning some basics that have been learnt from the nptel.
@@ -23,12 +23,12 @@ var articles={
                 I am very glad to say that I am making my own web app.
             </p>`
 },
-    'article-two':{
+    'articletwo':{
          title :'Articletwo | Prasanna Kumar',
          heading:'Articletwo',
          date:'Aug 2, 2017',
          link:`<a href="/">home</a>
-            <a href="/article-one">articleone</a>`,
+            <a href="/articleone">articleone</a>`,
          content: `
             <p>
                 Hi guys my date of birth is August 11, 1995
