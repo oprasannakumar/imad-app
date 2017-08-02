@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var Articles={
-    'Articleone':{
+    'articleone':{
     title :'Articleone | Prasanna Kumar',
     heading:'Articleone',
     date:'Aug 2, 2017',
@@ -21,7 +21,7 @@ var Articles={
                 I am very glad to say that I am making my own web app.
             </p>`
 },
-    'Articletwo':{
+    'articletwo':{
          title :'Articletwo | Prasanna Kumar',
          heading:'Articletwo',
          date:'Aug 10, 2017',
@@ -76,6 +76,8 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:articleName', function (req, res) {
+    //articleName==Articleone
+    //articles[articleName]=={} content object for article one
   var articleName=req.params.articleName;
   res.send(createTemplate(Articles[articleName]));
 });
