@@ -23,9 +23,9 @@ var Articles={
 },
     'Articletwo':{
          title :'Articletwo | Prasanna Kumar',
-    heading:'Articletwo',
-    date:'Aug 10, 2017',
-    content: `
+         heading:'Articletwo',
+         date:'Aug 10, 2017',
+         content: `
             <p>
                 Hi guys my date of birth is August 11, 1995
             </p>
