@@ -26,7 +26,7 @@ var articles={
     'article-two':{
          title :'Articletwo | Prasanna Kumar',
          heading:'Articletwo',
-         date:'Aug 10, 2017',
+         date:'Aug 2, 2017',
          link:`<a href="/">home</a>
             <a href="/article-one">articleone</a>`,
          content: `
