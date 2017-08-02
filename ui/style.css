@@ -12,8 +12,8 @@ body {
     font-size: 300%;
 }
 
-.italic {
-    font-weight: itlaic;
+.bold {
+    font-weight: bold;
 }
 .img-medium {
     height: 200px;
