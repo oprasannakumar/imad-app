@@ -10,6 +10,8 @@ var articles={
     title :'Articleone | Prasanna Kumar',
     heading:'Articleone',
     date:'Aug 2, 2017',
+    link:` <a href="/">home</a>
+                    <a href="/articletwo.html">articletwo</a>`,
     content: `
             <p>
                 Hai guys this is my first web site designed by my own by learning some basics that have been learnt from the nptel.
@@ -25,6 +27,8 @@ var articles={
          title :'Articletwo | Prasanna Kumar',
          heading:'Articletwo',
          date:'Aug 10, 2017',
+         link:`<a href="/">home</a>
+            <a href="/articleone.html">articleone</a>`,
          content: `
             <p>
                 Hi guys my date of birth is August 11, 1995
@@ -40,6 +44,7 @@ function createTemplate (data){
     var date=data.date;
     var heading=data.heading;
     var content=data.content;
+    var link=data.link;
     
         var htmlTemplate=`
         <html>
@@ -52,8 +57,7 @@ function createTemplate (data){
          </head>
               <div class="container">
                 <div>
-                    <a href="/">home</a>
-                    <a href="/articletwo.html">articletwo</a>
+                   ${link}
                 </div>
                 <hr/>
                 <h3>
