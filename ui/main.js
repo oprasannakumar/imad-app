@@ -7,5 +7,5 @@ function moveRight(){
 }
 //var marginLeft=margin-Left;
 img.onclick=function(){
-  img.sytyle.marginLeft='100px';
+  img.sytle.marginLeft='100px';
 };
